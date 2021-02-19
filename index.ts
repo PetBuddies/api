@@ -8,6 +8,6 @@ const app: express.Application = express();
 connectDb();
 
 app.use("/", router);
-app.listen(9193, function () {
+app.listen(process.env.PORT || 3001, function () {
   console.log("App is listening on port ",process.env.PORT);
 });
