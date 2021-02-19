@@ -5,12 +5,14 @@
   "main": "index.ts",
   "scripts": {
     "start": "nodemon index.ts",
-    "forever": "forever index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=12.18.3",
+    "npm": ">=6.14.6"
+  },
   "dependencies": {
     "@types/bcrypt": "^3.0.0",
     "@types/cors": "^2.8.9",
