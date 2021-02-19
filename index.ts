@@ -9,5 +9,5 @@ connectDb();
 
 app.use("/", router);
 app.listen(process.env.PORT || 3001, function () {
-  console.log("App is listening on port ",process.env.PORT);
+  console.log("App is listening on port 3001");
 });
